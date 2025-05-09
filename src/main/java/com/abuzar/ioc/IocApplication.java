@@ -9,6 +9,10 @@ public class IocApplication {
 //        SpringApplication.run(IocApplication.class, args);
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("ApplicationContext.xml");
+
+        car car = (car) context.getBean("lambo");
+        car.speed();
+
     }
 
 }
