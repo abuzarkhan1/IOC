@@ -4,5 +4,9 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="lambo" class="com.abuzar.ioc.Toyota"></bean>
+    <bean id="family" class="com.abuzar.ioc.FamilyCar"></bean>
+    <bean id="sports" class="com.abuzar.ioc.SportsCar"></bean>
+    <bean id="cybertruck" class="com.abuzar.ioc.CybertruckCar"></bean>
+
+
 </beans>
